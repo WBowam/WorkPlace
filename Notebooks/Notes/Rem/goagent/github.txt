@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-08-31T04:46:19+08:00
+
+====== github ======
+Created 星期六 31 八月 2013
+
+__上传__
+接下来在本地仓库里添加一些文件，比如README，	
+$ git add README
+$ git commit -m "first commit"
+
+上传到github：
+连接
+$ git remote add origin git@github.com:yourName/yourRepo.git
+	
+$ git push origin master

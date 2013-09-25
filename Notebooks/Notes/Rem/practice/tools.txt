@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-02T16:10:03+08:00
+
+====== tools ======
+Created 星期一 02 九月 2013
+__python 允许汉语__
+#coding=utf-8
+
+os.path.exists('text2.txt')判断文件是否存在
+
+
+time.strftime('%Y年%m月%d日%H时%M分%S秒',time.localtime(time.time()))

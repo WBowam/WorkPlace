@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-09T12:45:43+08:00
+
+====== PYTHON保留字 ======
+Created 星期一 09 九月 2013
+{{./pasted_image.png}}

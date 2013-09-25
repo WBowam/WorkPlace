@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-16T21:25:08+08:00
+
+====== pip ======
+Created 星期一 16 九月 2013
+1.
+
+====== 装easy_install ======
+
+http://pythonhosted.org/distribute/easy_install.html#id10
+把这个下下来[[./ez_setup.py]] 
+直接运行：python [[./ez_setup.py|ez_setup.py]] 
+2.easy_install pip
+3.pip install django
+
+
+

@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-09T11:46:48+08:00
+
+====== 赋值语句 ======
+Created 星期一 09 九月 2013
+
+{{./pasted_image.png}}
+
+
+{{./pasted_image001.png}}
+
+{{./pasted_image002.png}}
+
+{{./pasted_image003.png}}
+{{./pasted_image004.png}}
+__注意__
+{{./pasted_image005.png}}

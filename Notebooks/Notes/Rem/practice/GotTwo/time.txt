@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-03T23:25:11+08:00
+
+====== time ======
+Created 星期二 03 九月 2013
+__time.strftime('%Y-%m-%d',time.localtime(time.time()))__
+其中
+%y 两位数的年份表示（00-99）
+%Y 四位数的年份表示（000-9999）
+%m 月份（01-12）
+%d 月内中的一天（0-31）
+%H 24小时制小时数（0-23）
+%I 12小时制小时数（01-12）
+%M 分钟数（00=59）
+%S 秒（00-59）
+
+__如__
+time.strftime('%Y年%m月%d日%H时%M分%S秒',time.localtime(time.time()))
+返回stirng
+http://www.cnblogs.com/wanpython/archive/2010/08/07/1794598.html

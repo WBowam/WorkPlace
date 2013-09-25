@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-08T15:44:53+08:00
+
+====== LP笔记 ======
+Created 星期日 08 九月 2013
+第一个案例:
+__元组不可变，要排序？__，必先变成list，排好再回去
+{{./pasted_image.png}}
+好玩的__元组 __ 倒数第二行好玩
+{{./pasted_image001.png}}
+
+{{./pasted_image002.png}}
+
+{{./pasted_image003.png}}

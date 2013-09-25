@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-04T17:50:58+08:00
+
+====== Problems ======
+Created 星期三 04 九月 2013
+locals()有什么用？P138
+
+
+pickle有什么用？P132
+
+
+
+with open()  ##是不是得跟try同时用？
+
+
+未知问题
+[[./spliter.py]] 
+
+
+open()##后返回的不是list 吗，，，同样的open rf用了readline(),就好了：[[./spliter.py]] 和[[./bf.py]] 比较
+
+
+return到哪儿去？如__P150__
+
+
+dic能否作为for循环的条件，就像list？
+
+莫名其妙的问题：[[./bf001.py]] 
+

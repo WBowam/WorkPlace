@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-10T09:03:59+08:00
+
+====== lambda ======
+Created 星期二 10 九月 2013
+
+{{./pasted_image.png}}
+http://blog.csdn.net/imzoer/article/details/8667176
+{{./pasted_image001.png}}
+http://www.cnblogs.com/wanpython/archive/2010/11/01/1865919.html

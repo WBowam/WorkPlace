@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-08T18:39:52+08:00
+
+====== Generating SSH Keys ======
+Created 星期日 08 九月 2013
+
+https://help.github.com/articles/generating-ssh-keys

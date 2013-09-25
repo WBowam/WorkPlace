@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-25T16:12:11+08:00
+
+====== sublim ======
+Created 星期三 25 九月 2013
+
+Sublime Text 2 我最常用快捷键是以下几个：
+
+    ctrl+shift+p 基本上啥功能都在里面了
+    ctrl+r 快速定位到指定类/函数/标题
+    ctrl+g 快速跳转到某一行号，在debug时很常用
+    ctrl+b build
+    ctrl+shift+t 在当前位置打开终端（需安装terminal）
+    ctrl+shift+r 按PEP8格式化代码（需安装Python PEP8 Autoformat）
+
+还有 ctrl+s、ctrl+a、ctrl+z、ctrl+x、ctrl+c、ctrl+v这些和其他软件一样，就不用多说了

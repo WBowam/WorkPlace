@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-09T15:38:57+08:00
+
+====== Remember ======
+Created 星期一 09 九月 2013
+三元表达式————》
+
+====== mylove ======
+（__接下来也有相似的语法（get）：下例__）
+{{./pasted_image003.png}}
+{{./pasted_image004.png}}
+
+__很喜欢这种用法__
+{{./pasted_image.png}}
+
+====== 特殊情况 ======
+{{./pasted_image001.png}}
+
+{{./pasted_image002.png}}
+
+
+
+

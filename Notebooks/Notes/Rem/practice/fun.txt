@@ -1,0 +1,116 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-01T11:04:03+08:00
+
+====== fun ======
+Created 星期日 01 九月 2013
+
+#-*-coding:utf-8-*-
+
+
+
+class Person:
+        #作为基类用
+        '''
+as a basic class
+'''
+        def __init__(self, name,age=0,sex='man'):
+                self.name = name
+                self.age = age
+                self.sex = sex
+                
+        def setName(self,name):
+                self.name = name
+        def getName(self):
+                return self.name
+                
+        def setAge(self,age):
+                self.age = age
+        def getAge(self,age):
+                return self.age
+                
+        def setSex(self,sex):
+                self.sex = sex
+        def getSex(self,sex):
+                return self.sex
+
+def save(self):
+pass
+                
+class Student(Person):
+        def __init__(self,name,school='',grade=1):
+                Person.__init__(self, name,age=0,sex='man') #调用父类初始化
+                self.school = school
+self.grade = grade
+        
+        def setSchool(self,school):
+                self.school = school
+        def getSchool(school):
+                return self.school
+                
+class Poet:
+        #作为特性用，为了得到特性，本身不去继承person
+        def __init__(self, group='酱油派',inspiration=0):
+                self.group = group #group 山水派之类
+                self.inspiration = inspiration #灵感，5点表示可以写五首诗词
+                
+        def writePoetry(self):
+                #写出诗词，灵感值减1
+#pass占位符，以后来补齐
+if self.inspiration > 0:
+print '绿蚁新醅酒\n红泥小火炉\n晚来天欲雪\n能饮一杯无'
+self.inspiration = self.inspiration - 1
+
+else:
+print "亲，灵感不够～游山玩水找灵感去吧～"
+        def travel(self):
+                #能提升灵感值
+#播放几张风景图片，之后灵感加一
+self.inspiration = self.inspiration + 1
+
+class ArtisticYoung(Person):
+# 文艺青年 music
+def __init__(self,name,age=0,likebooks=[],likemusics=[],likemovies=[],mood=1): #mood 心情指数 0-5逐渐开心
+Person.__init__(self, name,age,sex='man')
+self.likebooks = likebooks
+self.likemusics = likemusics
+self.likemovies = likemovies
+self.mood = mood
+
+def setLikebooks(self,book):
+# self.likebooks = self.likebooks.append(book) ！！！典型错误，不返回东西，洗白列表
+self.likebooks.append(book)
+def getLikebooks(self):
+return self.likebooks
+
+def setLikemusics(self,music):
+self.likemusics.append(music)
+def getLikemusics(self):
+return self.likemusics
+
+def setLikemovies(self,movie):
+self.likemovies.append(movie)
+def getLikemovies(self):
+return self.likemovies
+
+def listenToMusic(self):
+self.mood = self.mood + 1
+
+def playMusic(self):
+print '笛子走起～323 362 1767653 ~~'
+self.mood = self.mood + 1
+
+def saySaying(self):
+if self.mood < 0:
+print '心情不好，无语了。。我想听歌'
+if self.mood > 0:
+print '必修课选逃，选修课必逃'
+def save(self):
+pass
+
+class geek:
+def __init__(self):
+pass
+
+
+

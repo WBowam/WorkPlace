@@ -1,0 +1,23 @@
+import os
+man=[]
+otherman=[]
+try:
+    
+    data=open('sketch.txt')
+    for i in data:
+        try:
+            (role,word)=i.split(':',1)
+            word=word.strip()
+            if role=="Man":
+                man.append(word)
+            else:
+                otherman.append(word)
+        except:
+            pass
+except IOError:
+    print ("the datafile is missing!")
+out=open("manout.out","w")
+print(man,file=out)
+out.close()
+print (otherman)
+

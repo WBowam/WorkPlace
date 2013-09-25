@@ -1,0 +1,15 @@
+{
+"auto_complete_triggers":
+[
+{
+"characters": "qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
+"selector": "text, source, meta, string, punctuation, constant"
+}
+],
+"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+"ignored_packages":
+[
+"Vintage",
+"SublimeREPL"
+]
+} 

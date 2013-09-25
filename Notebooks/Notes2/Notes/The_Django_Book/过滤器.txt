@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-17T11:30:36+08:00
+
+====== 过滤器 ======
+Created 星期二 17 九月 2013
+实现查找列表的第一个元素并将其转化为大写。
+
+{{ my_list|first|upper }}
+
+有些过滤器有参数。 过滤器的参数跟随冒号之后并且总是以双引号包含。 例如：
+
+{{ bio|truncatewords:"30" }}
+
+这个将显示变量 bio 的前30个词。
+
+以下几个是最为重要的过滤器的一部分。 附录F包含其余的过滤器。
+
+    addslashes : 添加反斜杠到任何反斜杠、单引号或者双引号前面。 这在处理包含JavaScript的文本时是非常有用的。
+
+    date : 按指定的格式字符串参数格式化 date 或者 datetime 对象， 范例：
+
+{{ pub_date|date:"F j, Y" }}
+
+    格式参数的定义在附录F中。

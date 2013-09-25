@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-07T22:42:44+08:00
+
+https://help.github.com/articles/generating-ssh-keys
+
+http://rogerdudler.github.io/git-guide/

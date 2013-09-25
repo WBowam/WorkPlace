@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-02T19:26:31+08:00
+
+====== wwj poater ======
+Created 星期一 02 九月 2013
+
+import os
+data=open("wwj_poet.txt")
+for a in data:
+    myput=raw_input()
+    if myput=="c":
+        print a

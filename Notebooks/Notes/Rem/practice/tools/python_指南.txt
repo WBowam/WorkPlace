@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-04T14:14:34+08:00
+
+====== python 指南 ======
+Created 星期三 04 九月 2013
+
+http://man.chinaunix.net/develop/python/python2.3tut/tut/tut.html

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-09T15:27:18+08:00
+
+====== byte in python ======
+Created 星期一 09 九月 2013
+
+http://www.2cto.com/shouce/pythonjc/ch03s04.html

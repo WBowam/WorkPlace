@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-09T16:14:43+08:00
+
+====== while用法 ======
+Created 星期一 09 九月 2013
+
+	s='dfdsfsdfs'
+	>>> while s:
+		s=s[1:]
+		print('Hello World')
+	
+		
+	Hello World
+	Hello World
+	Hello World
+	Hello World
+	Hello World
+	Hello World
+	Hello World
+	Hello World
+	Hello World
+	
+	
+	
+	{{./pasted_image.png}}
+	{{./pasted_image001.png}}
+	
+	
+	

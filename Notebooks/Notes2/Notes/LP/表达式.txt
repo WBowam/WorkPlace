@@ -1,0 +1,76 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-09T12:47:08+08:00
+
+====== 表达式 ======
+Created 星期一 09 九月 2013
+
+{{./pasted_image.png}}
+{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+
+{{./pasted_image003.png}}
+
+====== 大部分情况下可以用print ======
+
+====== 某些情况print用不了可以用sys.stdout.write(),例如列表解析 ======
+
+====== 你可以写[sys.stdout.write(c) for c in "hello world"] ======
+
+====== 但不能写[print c for c in "hello world"] ======
+
+
+__#testing stdout__
+
+print 'Hello World!'
+运行hello.py就会在标准输出的屏幕上打印 Hello World!, 我们再编一个简单的标准输入的小程序 sayhi.py:
+#testing stdin
+
+print 'Hi, %s!' % raw_input('Please enter your name:')
+当你用键盘输入你的名字后，程序在屏幕上输出Hi，[你的名字]!, 这就是从标准输入：键盘获取信息，再输出到标准输出：屏幕的例子。
+那么上面的例子中print 和 raw_input是如何与标准输入/输出流建立关系的呢？
+其实Python程序的标准输入/输出/出错流定义在sys模块中，分别为： sys.stdin, sys.stdout, sys.stderr
+上面的程序分别与下列的程序是一样的：
+import sys
+
+sys.stdout.write('Hello World!')
+import sys
+
+print 'Please enter your name:',
+name=sys.stdin.readline()[:-1]
+print 'Hi, %s!' % name
+
+
+
+ 	   <<   >>
+
+====== 深入 Python :Dive Into Python 中文版 ======
+
+Python 从新手到专家 [Dip_5.4b_CPyUG_Release]
+	
+
+10.2. 标准输入、输出和错误
+
+UNIX 用户已经对标准输入、标准输出和标准错误的概念非常熟悉了。这一节是为其他不熟悉的人准备的。
+
+标准输入和标准错误 (通常缩写为 stdout 和 stderr) 是内建在每一个 UNIX 系统中的管道。当你 print 某些东西时，结果前往 stdout 管道；当你的程序崩溃并打印出调试信息 (例如 Python 中的 traceback (错误跟踪)) 的时候，信息前往 stderr 管道。通常这两个管道只与你正在工作的终端窗口相联，所以当一个程序打印时，你可以看到输出，而当一个程序崩溃时，你可以看到调试信息。(如果你正在一个基于窗口的 Python IDE 上工作，stdout 和 stderr 缺省为你的“交互窗口”。)
+例 10.8. stdout 和 stderr 介绍
+
+>>> for i in range(3):
+...     print 'Dive in'             1
+Dive in
+Dive in
+Dive in
+>>> import sys
+>>> for i in range(3):
+...     sys.stdout.write('Dive in') 2
+Dive inDive inDive in
+>>> for i in range(3):
+...     sys.stderr.write('Dive in') 3
+Dive inDive inDive in
+
+1 	正如在例 6.9 “简单计数”中看到的，你可以使用 Python 内置的 range 函数来构造简单的计数循环，即重复某物一定的次数。
+2 	stdout 是一个类文件对象；调用它的 write 函数可以打印出你给定的任何字符串。实际上，这就是 print 函数真正做的事情；它在你打印的字符串后面加上一个硬回车，然后调用 sys.stdout.write 函数。
+3 	在最简单的例子中，stdout 和 stderr 把它们的输出发送到相同的地方：Python IDE (如果你在一个 IDE 中的话)，或者终端 (如果你从命令行运行 Python 的话)。和 stdout 一样，stderr 并不为你添加硬回车；如果需要，要自己加上。
+
+

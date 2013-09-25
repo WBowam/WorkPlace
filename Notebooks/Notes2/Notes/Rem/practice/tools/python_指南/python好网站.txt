@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-06T15:55:49+08:00
+
+====== python好网站 ======
+Created 星期五 06 九月 2013
+http://blog.csdn.net/csapr1987/article/details/7469769

@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-04T00:51:48+08:00
+
+====== 文件写入读取 ======
+Created 星期三 04 九月 2013
+
+with open('sys.stdout',__'w'__) as data:              ##覆盖
+                with open('sys.stdout',__'a'__) as data:              ###追加写入，不覆盖     
+[[./printer3.1.py]] 
+
+
+open('')  已经一行一行读取并列为list
+
+
+
+====== pickle ======
+[[./pickle_test.py]]  

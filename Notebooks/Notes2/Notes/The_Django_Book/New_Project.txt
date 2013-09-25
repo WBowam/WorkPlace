@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-16T21:48:46+08:00
+
+====== New Project ======
+Created 星期一 16 九月 2013
+
+django-admin.py startproject mysite2
+python manage.py runserver    ###python manage.py runserver 8080   ##python manage.py runserver 0.0.0.0:8080

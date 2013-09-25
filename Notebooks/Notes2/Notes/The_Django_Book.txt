@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-11T20:54:55+08:00
+
+====== The Django Book ======
+Created 星期三 11 九月 2013
+chm:///home/tulpar/WorkPlace/Book/djangobook2.0.CHM!/chapter03/index.html
+
+{{./pasted_image.png}}

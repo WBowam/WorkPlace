@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-08T16:07:49+08:00
+
+====== open或file ======
+Created 星期日 08 九月 2013
+

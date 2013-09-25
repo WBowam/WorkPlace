@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-10T10:17:36+08:00
+
+====== 彩蛋 ======
+
+====== 1. ======
+Created 星期二 10 九月 2013
+{{./pasted_image001.png}}
+{{./pasted_image.png}}
+
+====== 2. ======
+

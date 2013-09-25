@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-21T18:18:07+08:00
+
+====== 9 terminal ======
+Created 星期六 21 九月 2013
+
+http://www.techdrivein.com/2011/06/9-good-terminal-emulators-for-linux.html

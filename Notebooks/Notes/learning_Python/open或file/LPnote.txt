@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-08T16:08:14+08:00
+
+====== LPnote ======
+Created 星期日 08 九月 2013
+
+{{./pasted_image.png}}
+
+__I like these guys,,,,,,,__
+{{./pasted_image001.png}}
+
+{{./pasted_image002.png}}
+{{./pasted_image004.png}}
+
+{{./pasted_image003.png}}
+__文本读取本质__
+{{./pasted_image005.png}}

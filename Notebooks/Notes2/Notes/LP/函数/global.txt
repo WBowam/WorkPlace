@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-10T09:13:28+08:00
+
+====== global ======
+Created 星期二 10 九月 2013
+
+{{./pasted_image.png}}
+http://www.2cto.com/shouce/pythonjc/ch07s03.html
+
+
+{{./pasted_image001.png}}

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-16T21:51:15+08:00
+
+====== 准备环境 ======
+Created 星期一 16 九月 2013
+
+pip install django==1.4.5
