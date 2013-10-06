@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-26T12:39:53+08:00
+
+====== model ======
+Created 星期四 26 九月 2013
+
+== try: ==
+==     thepost = Content.objects.get(name="test") ==
+== except Content.DoesNotExist: ==
+==     thepost = None ==
+
+##better one     http://stackoverflow.com/questions/4353147/whats-the-best-way-to-handle-djangos-objects-get
+**from django.shortcuts import get_object_or_404**
+
+**thepost = get_object_or_404(Content, name='test')**

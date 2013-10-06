@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-26T18:43:36+08:00
+
+=== paginator ===
+=== Created 星期四 26 九月 2013 ===
+=== $python manage.py shell ===
+
+=== >>> from django.core.paginator import Paginator ===
+
+=== >>> objects = ['john', 'paul', 'george', 'ringo'] ===
+
+=== >>> p = Paginator(objects, 2)      #每页两条数据的一个分页器 ===
+=== >>> p.count        #数据总数 ===
+
+=== >>> p.num_pages      #总页数                                                                                                                                                                                               ===
+
+=== >>>p.page_range       #页码的列表 ===
+=== [1, 2] ===
+
+=== >>> page1 = p.page(1)     #第1页 ===
+=== >>> page1 ===
+
+=== <Page 1 of 2> ===
+
+=== >>> page1.object_list     #第1页的数据 ===
+=== ['john', 'paul'] ===
+
+=== >>> page2 = p.page(2) ===
+
+=== >>> page2.object_list      #第2页的数据 ===
+=== ['george', 'ringo'] ===
+
+=== >>> page2.has_next()     #是否有后一页 ===
+=== False ===
+
+=== >>> page2.has_previous()   #是否有前一页 ===
+=== True ===
+
+=== >>> page2.has_other_pages()   #是否有其他页 ===
+=== True ===
+
+=== >>> page2.next_page_number()  #后一页的页码 ===
+
+=== >>> page2.previous_page_number()  #前一页的页码 ===
+
+=== >>> page2.start_index()   # 本页第一条记录的序数（从1开始） ===
+
+=== >>> page2.end_index()    # 本页最后录一条记录的序数（从1开始） ===
+
+=== >>> p.page(0)               #错误的页，抛出异常 ===
+=== ...EmptyPage: That page number is less than 1 ===
+
+=== >>> p.page(3)              #错误的页，抛出异常 ===
+=== ...EmptyPage: That page contains no results ===

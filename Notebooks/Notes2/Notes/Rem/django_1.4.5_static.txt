@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-27T09:26:31+08:00
+
+====== django 1.4.5 static ======
+Created 星期五 27 九月 2013
+http://www.linuxyan.com/shell/255.html
+
+
+Apr242013
+django1.4.5配置静态文件(img,css,js)访问
+作者：admin   发布：2013-04-24 05:30   分类：shell/python   阅读：   3条评论  
+
+在settings.py加入
+
+import os
+ 
+WEB_ROOT = os.path.dirname(os.path.abspath(__file__)).replace('\\','/').decode('gbk')
+ 
+STATICFILES_DIRS = (
+    os.path.join(WEB_ROOT,'../static/').replace('\\','/'),
+)
+
+我的目录结构如下：
+
+├── xxxapp  app应用文件夹
+├── xxx     project项目文件夹
+├── static  静态资源文件夹
+└──manage.py
+
+在文件中调用就直接可以写
+
+src="/static/xxx.js"
+
+本文固定链接: http://www.linuxyan.com/shell/255.html | ㄨ销声匿迹、Linux

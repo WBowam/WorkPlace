@@ -1,4 +1,6 @@
 from django.conf.urls import patterns, include, url
+#import static url
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 #import views
 from views import hello
 # Uncomment the next two lines to enable the admin:
@@ -19,4 +21,4 @@ urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
     (r'^depotapp/', include('depotapp.urls')),
 )
-
+urlpatterns+=staticfiles_urlpatterns()

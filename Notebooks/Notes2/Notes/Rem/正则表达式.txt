@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-09-26T19:06:44+08:00
+
+====== 正则表达式 ======
+Created 星期四 26 九月 2013
+
+====== (?<name>exp) 	匹配exp,并捕获文本到名称为name的组里，也可以写成(?'name'exp)               ======
+http://deerchao.net/tutorials/regex/regex.htm
+
+
+http://www.cnblogs.com/wei-li/archive/2012/05/16/2505503.html
+
+
+感觉这个不错http://www.regexlab.com/zh/regref.htm
